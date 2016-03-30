@@ -1,0 +1,54 @@
+{
+  "scopeName": "source.runway",
+  "name": "runway",
+  "fileTypes": [
+    "model"
+  ],
+  "patterns": [
+    {
+      "name": "comment.line.double-slash",
+      "match": "//.*$"
+    },
+    {
+      "name": "comment.block",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    {
+      "name": "constant.language",
+      "match": "\\b(False|True)\\b"
+    },
+    {
+      "name": "constant.numeric",
+      "match": "[0-9]+"
+    },
+    {
+      "name": "keyword.control",
+      "match": "\\b(as|break|continue|else|if|in|for|match|return|while)\\b"
+    },
+    {
+      "name": "keyword.operator",
+      "match": "[:=!<>\\[\\]&\\|\\+\\-\\*/%]"
+    },
+    {
+      "name": "keyword.other",
+      "match": "\\b(assert|print)\\b"
+    },
+    {
+      "name": "punctuation.separator",
+      "match": ","
+    },
+    {
+      "name": "storage.type",
+      "match": "\\b(either|external|function|invariant|record|rule|type|var)\\b"
+    },
+    {
+      "name": "support.type",
+      "match": "\\b(Array|Boolean|MultiSet|OrderedSet|Set|Time|Vector)\\b"
+    },
+    {
+      "name": "support.function",
+      "match": "\\b(capacity|empty|full|later|past|pop|push|remove|size|urandom|urandomRange)\\b"
+    }
+  ]
+}
