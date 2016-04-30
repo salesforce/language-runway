@@ -6,7 +6,7 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/atom/language-runway",
+  "repository": "https://github.com/SalesforceEng/language-runway",
   "license": "unlicensed",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
