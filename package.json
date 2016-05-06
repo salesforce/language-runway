@@ -7,7 +7,7 @@
     "grammar"
   ],
   "repository": "https://github.com/SalesforceEng/language-runway",
-  "license": "unlicensed",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
