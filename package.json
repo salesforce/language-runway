@@ -1,12 +1,13 @@
 {
   "name": "language-runway",
-  "version": "0.0.0",
-  "description": "A short description of your language package",
+  "version": "0.1.0",
+  "description": "Atom syntax highlighting package for Runway specifications",
   "keywords": [
     "language",
     "grammar"
   ],
   "repository": "https://github.com/SalesforceEng/language-runway",
+  "author": "Diego Ongaro <dongaro@salesforce.com>",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
