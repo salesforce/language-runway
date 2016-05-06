@@ -7,8 +7,13 @@ modeling concurrent and distributed systems as state machines. This package is
 also used by [runway-browser](https://github.com/SalesforceEng/runway-browser)
 to apply syntax highlighting to Runway models being viewed in a web browser.
 
-To install this, invoke `apm link`, which will create a symlink into
-`~/.atom/packages` pointing to this directory. Then restart Atom.
+To install, use `apm link` to create a symlink into `~/.atom/packages`:
+
+    git clone https://github.com/SalesforceEng/language-runway.git
+    cd language-runway
+    apm link
+
+Then restart Atom.
 
 If you're looking for syntax highlighting of Runway models for the Vim text
 editor, that's available in the
