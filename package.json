@@ -6,7 +6,7 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/SalesforceEng/language-runway",
+  "repository": "https://github.com/salesforce/language-runway",
   "author": "Diego Ongaro <dongaro@salesforce.com>",
   "license": "MIT",
   "engines": {
