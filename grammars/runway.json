@@ -24,7 +24,7 @@
     },
     {
       "name": "keyword.control",
-      "match": "\\b(as|break|continue|default|else|if|in|for|match|return|while)\\b"
+      "match": "\\b(as|break|continue|default|else|if|in|for|match|reset|return|while)\\b"
     },
     {
       "name": "keyword.operator",
@@ -40,7 +40,7 @@
     },
     {
       "name": "storage.type",
-      "match": "\\b(either|external|function|invariant|record|rule|type|var)\\b"
+      "match": "\\b(either|external|function|invariant|param|record|rule|type|var)\\b"
     },
     {
       "name": "support.type",
@@ -48,7 +48,7 @@
     },
     {
       "name": "support.function",
-      "match": "\\b(capacity|empty|full|later|past|pop|push|remove|size|urandom|urandomRange)\\b"
+      "match": "\\b(capacity|contains|empty|full|later|past|pop|push|remove|size|urandom|urandomRange)\\b"
     }
   ]
 }
