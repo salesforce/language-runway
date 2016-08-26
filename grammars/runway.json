@@ -48,7 +48,7 @@
     },
     {
       "name": "support.function",
-      "match": "\\b(capacity|contains|empty|full|later|past|pop|push|remove|size|urandom|urandomRange)\\b"
+      "match": "\\b(capacity|contains|empty|full|later|past|pop|pow|push|remove|size|urandom|urandomRange)\\b"
     }
   ]
 }
