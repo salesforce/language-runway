@@ -44,7 +44,7 @@
     },
     {
       "name": "support.type",
-      "match": "\\b(Array|Boolean|MultiSet|OrderedSet|Set|Time|Vector)\\b"
+      "match": "\\b(Array|Boolean|MultiSet|OrderedSet|Output|Set|Time|Vector)\\b"
     },
     {
       "name": "support.function",
